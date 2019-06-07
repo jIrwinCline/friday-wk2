@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("#showSurvey").click(function() {
+    $("#form").show();
+  });
   $("#survey form").submit(function(event) {
     event.preventDefault();
     var q1 = $("input:radio[name=q1]:checked").val();
