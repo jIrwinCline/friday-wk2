@@ -37,7 +37,15 @@ $(document).ready(function() {
       console.log("swift");
       $(".swift").show();
     }
-
+    else if (swiftWordCount(allQs) < pythonWordCount(allQs) && swiftWordCount(allQs) < rubyWordCount(allQs)) {
+      $(".tieNotSwift").show();
+    }
+    else if (pythonWordCount(allQs) < swiftWordCount(allQs) && pythonWordCount(allQs) < rubyWordCount(allQs)) {
+      $(".tieNotPython").show();
+    }
+    else if (rubyWordCount(allQs) < pythonWordCount(allQs) && rubyWordCount(allQs) < swiftWordCount(allQs)) {
+      $(".tieNotRuby").show();
+    }
 
 
 //     allQs.prototype.count=function(q1) {
