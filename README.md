@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a webpage that will take in user input to questions and output the best language for them to learn based off that input.
+This is a webpage that will take in user input to questions and output the best language for them to learn based off that input. It uses html and css/bootstrap to create the webpage, then javascript allows the webpage to change based off of different input from the user.
 
 ## Setup/Installation Requirements
 
