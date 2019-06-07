@@ -10,13 +10,13 @@
 #greeting {
   text-align: center;
   font-family: inherit;
-  padding-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #97aeef;
   border: solid;
 
 }
 #greeting h2 {
-  /* background-color: #7f95d1; */
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -24,6 +24,7 @@
   border: solid;
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 0px;
   border-color: #7f95d1;
 
 }
