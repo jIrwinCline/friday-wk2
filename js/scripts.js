@@ -46,7 +46,7 @@ $(document).ready(function() {
     else if (rubyWordCount(allQs) < pythonWordCount(allQs) && rubyWordCount(allQs) < swiftWordCount(allQs)) {
       $(".tieNotRuby").show();
     }
-
+    $("#survey").hide();
 
 //     allQs.prototype.count=function(q1) {
 //     return (this.length - this.replace(new RegExp(q1,"g"), '').length) / q1.length;

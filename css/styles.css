@@ -1,3 +1,35 @@
 .ruby, .python, .swift, .tieNotSwift, .tieNotRuby, .tieNotPython {
   display: none;
+  margin-top: 300px;
+}
+.ruby .well, .python .well, .swift .well, .tieNotSwift .well, .tieNotRuby .well, .tieNotPython .well {
+  background-color: #ffc9a3;
+  border: solid;
+  border-color: #7f95d1;
+}
+#greeting {
+  text-align: center;
+  font-family: inherit;
+  padding-top: 10px;
+  background-color: #97aeef;
+  border: solid;
+
+}
+#greeting h2 {
+  /* background-color: #7f95d1; */
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+#survey {
+  border: solid;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-color: #7f95d1;
+
+}
+#survey .well {
+  background-color: #ffc9a3;
+}
+body {
+  background-color: #ffebe7;
 }
