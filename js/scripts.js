@@ -25,24 +25,24 @@ $(document).ready(function() {
 
     if (rubyWordCount(allQs) > swiftWordCount(allQs) && rubyWordCount(allQs) > pythonWordCount(allQs)) {
       console.log("ruby");
-      $(".ruby").show();
+      $(".ruby").fadeIn();
     }
     if (pythonWordCount(allQs) > swiftWordCount(allQs) && pythonWordCount(allQs) > rubyWordCount(allQs)) {
       console.log("python");
-      $(".python").show();
+      $(".python").fadeIn();
     }
     if (swiftWordCount(allQs) > pythonWordCount(allQs) && swiftWordCount(allQs) > rubyWordCount(allQs)) {
       console.log("swift");
-      $(".swift").show();
+      $(".swift").fadeIn();
     }
     else if (swiftWordCount(allQs) < pythonWordCount(allQs) && swiftWordCount(allQs) < rubyWordCount(allQs)) {
-      $(".tieNotSwift").show();
+      $(".tieNotSwift").fadeIn();
     }
     else if (pythonWordCount(allQs) < swiftWordCount(allQs) && pythonWordCount(allQs) < rubyWordCount(allQs)) {
-      $(".tieNotPython").show();
+      $(".tieNotPython").fadeIn();
     }
     else if (rubyWordCount(allQs) < pythonWordCount(allQs) && rubyWordCount(allQs) < swiftWordCount(allQs)) {
-      $(".tieNotRuby").show();
+      $(".tieNotRuby").fadeIn();
     }
     $("#survey").hide();
     $("body").css("background-image", "url('https://media.giphy.com/media/gG0NMjYMqNKQo/giphy.gif')");
