@@ -45,6 +45,7 @@ $(document).ready(function() {
       $(".tieNotRuby").show();
     }
     $("#survey").hide();
+    $("body").css("background-image", "url('https://media.giphy.com/media/gG0NMjYMqNKQo/giphy.gif')");
 
 //     allQs.prototype.count=function(q1) {
 //     return (this.length - this.replace(new RegExp(q1,"g"), '').length) / q1.length;

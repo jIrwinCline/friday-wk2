@@ -33,4 +33,12 @@
 }
 body {
   background-color: #ffebe7;
+  /* background-image: url('https://media.giphy.com/media/gG0NMjYMqNKQo/giphy.gif'); */
+  background-size: cover;
+
+
+
+  height: 100vh;
+  padding:0;
+  margin:0;
 }
